@@ -24,17 +24,26 @@ Using **Computer Vision** + **Hand Tracking**, it detects your gestures and simu
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/Kashina69/PhantomTouch.git
-cd PhantomTouch
+git clone https://github.com/Kashina69/Phantom-Touch.git
+cd Phantom-Touch
 ```
 
 ### 2️⃣ Install dependencies
 
 ```bash
-pip install opencv-python mediapipe pyautogui numpy
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
 ```
 
-### 3️⃣ Run the application
+### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the application
 
 ```bash
 python main.py
